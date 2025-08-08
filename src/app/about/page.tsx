@@ -24,7 +24,7 @@ const firmContent = [
   },
 ];
 
-const teamMembers = [
+const teamMembers =  [
   {
     name: "Doron Merdinger",
     title: "Founder & CEO",
