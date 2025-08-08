@@ -30,7 +30,7 @@ const teamMembers =  [
     title: "Founder & CEO",
     titleColor: "text-blue-400",
     description:
-      "Doron, CEO of Doroni Aerospace, champions innovation and operational excellence. Previously, he led tech advancements at Merdinger House of Design and doubled Hazorfim’s revenues within four years as its CEO.",
+      "Doron, CEO of Doroni Aerospace champions innovation and operational excellence. Previously, he led tech advancements at Merdinger House of Design and doubled Hazorfim’s revenues within four years as its CEO.",
     image: "/images/img.avif", // Replace with the actual image path
   },
   {
