@@ -7,16 +7,40 @@ const Navbar = () => {
 
   return (
     <nav className="flex gap-4 p-4 bg-black text-white">
+      {/* Home */}
       <Link href="/" className={pathname === '/' ? 'text-yellow-400' : ''}>
         Home
       </Link>
-      <Link href="/about" className={pathname === "/about" ? "text-yellow-400" : ""}>
+
+      {/* Desktop About */}
+      <Link
+        href="/about"
+        className={`hidden md:block ${pathname === '/about' ? 'text-yellow-400' : ''}`}
+      >
         About
       </Link>
-      <Link href="/Firm" className={pathname === "/Firm" ? "text-yellow-400" : ""}>
-        Team
+
+      {/* Mobile About Mini */}
+      <Link
+        href="/about-mini"
+        className={`block md:hidden ${pathname === '/about-mini' ? 'text-yellow-400' : ''}`}
+      >
+        
       </Link>
-      <Link href="/contact" className={pathname === '/contact' ? 'text-yellow-400' : ''}>
+
+      {/* Firm */}
+      <Link
+        href="/Firm"
+        className={pathname === '/Firm' ? 'text-yellow-400' : ''}
+      >
+        
+      </Link>
+
+      {/* Contact */}
+      <Link
+        href="/contact"
+        className={pathname === '/contact' ? 'text-yellow-400' : ''}
+      >
         Contact
       </Link>
     </nav>
