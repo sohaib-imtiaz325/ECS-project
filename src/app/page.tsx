@@ -21,12 +21,14 @@ const Navbar = () => {
       </Link>
 
       {/* Mobile About Mini */}
-      <Link
-        href="/about-mini"
-        className={`block md:hidden ${pathname === '/about-mini' ? 'text-yellow-400' : ''}`}
-      >
-        
-      </Link>
+     <Link
+      href="/about-mini"
+      className={`block md:hidden ${
+        pathname === "/about-mini" ? "text-yellow-400" : ""
+      }`}
+    >
+      About Mini
+    </Link>
 
       {/* Firm */}
       <Link
